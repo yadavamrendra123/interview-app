@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital,wght@0,100;0,300;1,100&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 1194px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 0px #E0E5EB;
+    padding: 15px;
+}
+
+
+
+.table-header{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 1194px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #343C46;
+    background: #EEF1F7;
+    justify-content: flex-start;
+}  
+
+.table{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 1194px;
+    height: 60px;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #343C46;
+    box-shadow: 0px 1px 0px #E0E5EB;
+}
+.user{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.search-bar{
+    display: flex;
+    margin-left: auto;
+    width: 100px;
+    height: 40px;
+    margin-right: 18px;
+    align-items: center;
+    border-radius: 5px ;
+    justify-content: center;
+    align-self: center;
+
+    
+}
+
+.add-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 4px;
+    background: #00425C;
+    border: 1px solid #00425C;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.add-btn:focus {
+    outline: none;
+}
+
+.add-btn:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(9, 124, 186, 0.7);
+}
+
+.checkbox{
+    height: 18px;
+    width: 18px;
+}
+
+
+
+.email{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.name,.site,.usrname,.phone,.addr{
+    width: 200px;
+    margin-left: 20px;
+}
